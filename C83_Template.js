@@ -12,7 +12,7 @@ Write: "age.sort()"
 
 */
 
-age.   ;
+age.sort()   ;
 
 /*
 
@@ -22,7 +22,7 @@ After sorting the array "age", all the elements must be arranged in an ascending
 Write: "age.reverse()"
 
 */
-age.   ;
+age.reverse   ;
 
 var i = 0;
 
@@ -57,8 +57,8 @@ function update()
 
     */
 
-    var max_number = Math. .apply(Math, );
-    console.log("The highest age is: ",  );
+    var max_number = Math.max.apply(Math,age );
+    console.log("The highest age is: ",max_number  );
 
     /*
 
@@ -69,6 +69,6 @@ function update()
 
     */
 
-    var min_number = Math. .apply(Math,  );
-    console.log("The lowest age is: ",  );
+    var min_number = Math.min.apply(Math,age  );
+    console.log("The lowest age is: ",min_number  );
 }
