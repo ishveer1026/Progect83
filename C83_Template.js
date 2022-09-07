@@ -22,7 +22,7 @@ After sorting the array "age", all the elements must be arranged in an ascending
 Write: "age.reverse()"
 
 */
-age.reverse   ;
+age.reverse()   ;
 
 var i = 0;
 
